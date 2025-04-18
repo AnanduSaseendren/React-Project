@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .logo .e {
+    color: #ffcc00;
+    font-size: 28px;
+    margin-right: 5px;
+  }
+  
+  .logo .cart-icon {
+    margin-left: 10px;
+    font-size: 22px;
+    color: #ffcc00;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .search-bar select,
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+  
+  .search-bar select {
+    background-color: #f7f7f7;
+    border-right: 1px solid #ccc;
+  }
+  
+  .search-bar input {
+    flex: 1;
+  }
+  
+  .search-bar button {
+    background-color: white;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+  
+  .account-btn {
+    display: flex;
+    align-items: center;
+    background-color: #ffcc00;
+    border: 2px solid #555;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .account-btn span {
+    margin-left: 8px;
+  }
+  
+  .account-icon {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+  }
+  
