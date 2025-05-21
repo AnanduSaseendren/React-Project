@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md px-6 py-4 sticky top-0 ">
+    <nav className="bg-white shadow-md px-6 py-4 sticky top-0 z-50">
       <div className="flex items-center justify-between flex-wrap gap-5">
         <div className="text-2xl font-bold text-blue-900 mr-6">Fragranzia</div>
 
